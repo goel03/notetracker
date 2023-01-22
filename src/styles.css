@@ -1,0 +1,72 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.tab {
+  width: 305px;
+  background-color: aqua;
+  height: 90vh;
+}
+
+.daily {
+  width: 210px;
+  background-color: forestgreen;
+  margin-bottom: 5px;
+  padding: 40px;
+  padding-left: 50px;
+  font-size: 40px;
+
+  color: ghostwhite;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 60px;
+  color: blue;
+  font-size: 20px;
+  margin-bottom: 5px;
+  margin-left: 3px;
+}
+
+butten:hover {
+  background-color: chartreuse;
+  cursor: pointer;
+}
+input {
+  height: 30px;
+  width: 900px;
+  position: absolute;
+  left: 23.1%;
+  bottom: 53px;
+}
+
+button[type="submit"] {
+  position: absolute;
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  margin-left: 5px;
+  right: 7%;
+  bottom: 45px;
+}
+img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+}
+
+.not {
+  position: absolute;
+  width: 71%;
+  height: 88%;
+  background-color: cornsilk;
+  margin-left: 22%;
+  bottom: 31px;
+  padding: 10px;
+  padding-left: 10px;
+  overflow: scroll;
+  z-index: -1;
+}
